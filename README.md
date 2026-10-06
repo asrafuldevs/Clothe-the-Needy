@@ -1,13 +1,57 @@
-# React + Vite
+# Clothe the Needy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Clothe the Needy is a community-focused web application that helps connect people with winter clothing donation opportunities and practical ways to support those in need.
 
-Currently, two official plugins are available:
+## Live Link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Visit the live site](https://clothe-the-needy.firebaseapp.com/)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Clothe-the-Needy
+- Home page with banner and awareness sections
+- Donation page with clothing support cards loaded from local JSON data
+- Help page showing ways users can contribute
+- Authentication UI for login and registration
+- Responsive interface built with Tailwind CSS and DaisyUI
+
+## Tech Stack
+
+- React
+- Vite
+- React Router
+- Tailwind CSS
+- DaisyUI
+- Firebase Authentication
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (LTS recommended)
+- npm
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/asrafuldevs/Clothe-the-Needy.git
+   ```
+2. Move into the project folder:
+   ```bash
+   cd Clothe-the-Needy
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Available Scripts
+
+- `npm run dev` - Start the local development server
+- `npm run build` - Build the app for production
+- `npm run preview` - Preview the production build locally
+- `npm run lint` - Run ESLint checks
